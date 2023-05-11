@@ -1,6 +1,9 @@
-Remove old fiber by taking off cover.
+Exchange FPfiber 
 
 ![image](https://github.com/jqwhite/Grill_Spinning_Disc_2/assets/74255929/5c36ed29-3498-4758-be63-d6a9bcb4130a)
+
+
+Remove old fiber by taking off cover.
 
 ![image](https://github.com/jqwhite/Grill_Spinning_Disc_2/assets/74255929/4bfb5355-e409-4b8a-a7ae-84b594ed0847)
 
