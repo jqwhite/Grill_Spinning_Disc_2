@@ -14,4 +14,8 @@ Undu set screw H and depress the spring-loaded retainer to remove the Ø12 x 50m
 
 <img width="460" alt="image007" src="https://github.com/jqwhite/Grill_Spinning_Disc_2/assets/74255929/69942174-e734-4595-8aab-b97c8a7820a5">
 
+Undo the fiber from the CSU-X1 and cap the fiber.
+
+Cap the collimator. 
+
 Pull the fiber backwards through the port so that the end with the FPC8 or APC coupler passes through the port in the housing. Do not try to feed the collimator through the housing.
