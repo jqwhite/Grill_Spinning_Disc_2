@@ -10,8 +10,8 @@ Remove the old fiber by taking off cover.
 
 Release the fiber by undoing the external collet and taking out the rubber seals.  
 
-Undu set screw H to remove the Ø12 x 50mm collimator from the kineFles housing.  Leave the polarization key on the collimator--there is no need to remove it. 
+Undu set screw H and depress the spring-loaded retainer to remove the Ø12 x 50mm collimator from the kineFles housing.  Leave the polarization key on the collimator--there is no need to remove it. 
 
 <img width="460" alt="image007" src="https://github.com/jqwhite/Grill_Spinning_Disc_2/assets/74255929/69942174-e734-4595-8aab-b97c8a7820a5">
 
-
+Pull the fiber backwards through the port so that the end with the FPC8 or APC coupler passes through the port in the housing. Do not try to feed the collimator through the housing.
