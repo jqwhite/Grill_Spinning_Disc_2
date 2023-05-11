@@ -1,4 +1,4 @@
-Exchange FPfiber 
+# Exchange FPC8 fiber for APC 
 
 ![image](https://github.com/jqwhite/Grill_Spinning_Disc_2/assets/74255929/5c36ed29-3498-4758-be63-d6a9bcb4130a)
 
