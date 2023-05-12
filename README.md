@@ -25,6 +25,6 @@ Changes to hardware and software are documented here.
 - Andor laser combiner retired (Jamie White).
 - Omicron laser combiner with 445, 488, 515, and 594nm lasers commissioned.
 - Original FCP8 fiber that arrived with Omicron exchanged by Omicron for an AFP fiber. See `Fiber_exchange` in `Omicron` folder.
-- Triggerscope ordered for laser triggering and power control.
-- Filters ordered for 488/594 dual-excitation imaging. A new dichroic in the CSU-X1 head blocks detection of both laser lines, and a dual-band emission filter allows the GFP and mKate2 signals to pass to the camera.  **Dual-color imaging is achieved by switching the lasers without switching the emission filters.**
+- **Triggerscope** **ordered** for laser triggering and power control.
+- **Filters** **ordered** for 488/594 dual-excitation imaging. A new dichroic in the CSU-X1 head blocks detection of both laser lines, and a dual-band emission filter allows the GFP and mKate2 signals to pass to the camera.  **Dual-color imaging is achieved by switching the lasers without switching the emission filters.**
 - Archit improvised laser control with an Arduino.
