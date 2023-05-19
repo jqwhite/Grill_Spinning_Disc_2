@@ -1,0 +1,10 @@
+COM Port,Connection,Notes
+201,Prolific USB-to-Serial Comm Port (Andor LC-501),Andor hard-codes 201 to 206
+202,Prolific USB-to-Serial Comm Port (Andor LC-501),Andor hard-codes 201 to 206
+203,Prolific USB-to-Serial Comm Port (Andor LC-501),Andor hard-codes 201 to 206
+204,Prolific USB-to-Serial Comm Port (Andor LC-501),Andor hard-codes 201 to 206
+1,Zeiss Observer Z.1 - Main - RS232 male,Computer - COM1 - No converter
+8,Yokagawa (Blue) Box 1 Filter Wheel Control - RS232C1,Serial Converter P1/A - COM9
+9,Sutter Lambda Smart Shutter LB10-B/IQ - SERIAL,Serial Converter P2/B - COM9
+10,UniBlitz VMM-D1 Shutter Driver - halogen lamp shutter,USB Serial Converter P3/C - COM10
+11,ASI MS-2000 Stage Controller - Serial out ,USB Serial Converter P4/D - COM11
