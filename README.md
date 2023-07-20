@@ -32,7 +32,7 @@ Changes to hardware and software are documented here.
 
 ### Early-June 2023
 - It turns out that the FCP8 was correctly specified.  Original fiber back from Omicron (oops) and verified by Sebatsion (specifications), Archit and Jamie (imaging).
-- Original FCP8 fiber re-installed.
+- ## Original FCP8 fiber re-installed. ##
 - Omicron laser input optimized by Stephan to ~75mW at the fiber tip.
 - New dichroic for 488/594 GFP/mKate imaging: **ZT488/594TPC 13x15x0.5mm Lot#413707**
 - New emission filter for 488/594 GFP/mKate imaging: **ZET488/594m 25mm die mounted Lot#412247**
@@ -67,3 +67,12 @@ Current filters in the Sutter Lambda 10B are now:
 ```
 
 Micro-manager configuration file updated with GFP, mKate, and GFP/mKate channels.
+
+### June - July 2023
+
+- Triggerscope setup according to Austin Blanco/Nico Sturman published recommendations
+
+YouTube video here: 
+
+https://youtu.be/5AC9UtiF0JM
+  
