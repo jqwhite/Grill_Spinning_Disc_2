@@ -27,11 +27,14 @@ Switch on in sequence left to right facing optical table:
 ## Login info ##
 
 For usual experiments, use **Griller** account:
-
+```
 Username: GRILL-PC-3
 Password: Griller
-
+```
 For system administration and setup, use **admin** account:
+```
+Username: admin
+Password: trueGriller
 
-User
+
 
