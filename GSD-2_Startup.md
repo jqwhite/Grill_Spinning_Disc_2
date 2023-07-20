@@ -4,7 +4,17 @@
 
 ## Boes Power Manager ##
 
-- Main power (black switch) on
-- In sequence
-  - 
+Switch on in sequence left to right:
+
+- Main power (black switch) on (if off).  On = in, off = out.
+- CSU-X1 (Spinning disc)
+- Blue Box (Spinning disc controller)
+- Sutter filter wheel (between spinning disc and camera)
+- Zeiss power (turns on power supply in the gantry)
+- Hamamatsu Orca (camera)
+- Triggerscope 4 (controls Z-stage and lassers)
+
+  ## Individual equipment ##
+
+  Switch 
 
