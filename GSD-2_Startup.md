@@ -14,7 +14,10 @@ Switch on in sequence left to right:
 - Hamamatsu Orca (camera)
 - Triggerscope 4 (controls Z-stage and lassers)
 
-  ## Individual equipment ##
+## Individual equipment ##
 
-  Switch 
+Switch on in sequence left to right facing optical table:
+
+- Omicron LightHub: Press blue switch, turn key to 1.  Emission light should come on.
+- 
 
