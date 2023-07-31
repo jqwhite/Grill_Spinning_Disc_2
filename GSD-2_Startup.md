@@ -50,4 +50,6 @@ Physically, this means that as Z-values become more positive the Zeiss focus mov
 
 **Example:** if a sample is in focus, you can move it -20µm out of focus with the Zeiss focus, which physically moves the objective **down** to **increase** the distance between the objective and the sample.  You can move it back into focus with the ASI piezo by moving it +20µm, which physically **decreases** the distance between the objective and the sample, this time, however, by physically moving the Z-stage down.
 
+## TTL Control ##
+
 
