@@ -2,7 +2,7 @@
  
  Current startup sequence for Grill Spining Disc 2 in 454.
 
-## Boes Power Manager ##
+## Boos Power Manager ##
 
 Switch on in sequence left to right:
 
