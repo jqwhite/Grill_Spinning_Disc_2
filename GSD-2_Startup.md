@@ -38,5 +38,16 @@ For system administration and setup, use **admin** account:
 Username: admin
 Password: trueGriller
 ```
+## Z-axis orientations ##
+
+There are two devices controlling the Z-focus: the Zeiss focus axis, which moves the objective turret, and the ASI Z-piezo insert, which moves the piezo insert of the stage.
+
+The ASI insert has a range of 150µm.  Currently (2023-07-20) the range is set to a values from -75µm to +75µm.
+
+Currently (2023-07-20) for both Zeiss and piezo, **as the values become more positive, the sample moves closer to the objective.**  
+
+Physically, this means that as Z-values become more positive the Zeiss focus moves the objectives **up** toward the slide, and the piezo moves the stage **down.**
+
+**Example:** if a sample is in focus, you can move it -20µm out of focus with the Zeiss focus, which physically moves the objective **down** to **increase** the distance between the objective and the sample.  You can move it back into focus with the ASI piezo by moving it +20µm, which physically **decreases** the distance between the objective and the sample, this time, however, by physically moving the Z-stage down.
 
 
