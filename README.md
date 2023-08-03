@@ -64,7 +64,7 @@ DAC7: ASI Z-piezo
 ```
 - Old filters kept in the AHF box
 
-Current filters in the Sutter Lambda 10B are now:
+#### Current filters in the Sutter Lambda 10B are now: ####
 
 ```
   4 Label,Wheel-A,9,9: block
@@ -79,7 +79,7 @@ Current filters in the Sutter Lambda 10B are now:
   5 Label,Wheel-A,0,0: 512/630 db
 ```
 
-Micro-manager configuration file updated with GFP, mKate, and GFP/mKate channels.
+- Micro-manager configuration file updated with GFP, mKate, and GFP/mKate channels.
 
 ### Mid-May 2023
 - Hammamatsu camera revived with the help of Sebastian Bundschu and Archit. The status LED had been turned off in the software. The issue was getting the **driver version matched to the software version** of (µ-Manager?  Hammamatsu control software?).
