@@ -75,7 +75,6 @@ Current filters in the Sutter Lambda 10B are now:
   7 Label,Wheel-A,2,2: 525/50
   6 Label,Wheel-A,1,1: BP
   5 Label,Wheel-A,0,0: 512/630 db
-
 ```
 
 Micro-manager configuration file updated with GFP, mKate, and GFP/mKate channels.
