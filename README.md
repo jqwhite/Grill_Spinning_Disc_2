@@ -37,7 +37,7 @@ TTL8: Camera
 ```
 DAC3: 488nm laser power (GFP)
 DAC5: 594nm laser power (mKate)
-
+```
 
 ### Early-June 2023
 
