@@ -76,7 +76,7 @@ YouTube videos here:
 
 https://youtu.be/5AC9UtiF0JM
 
-## TTL Control of Lasers and Camera ##
+#### TTL Control of Lasers and Camera ####
 
 The Triggerscope has been set to act as a virtual shutter to control laser on-off and synchronize the lasers to the Orca camera. The current configuration also controls laser power (0 to 5 watts).  This configuration allows different "channels" to use different laser powers, and so different laser powers can be set during a time series.
 
@@ -86,7 +86,7 @@ For faster operation, it is possible to configure only the laser on-off to be co
 
 For simplicity, the current default configuration only provides channels that include a laser power setting. In the channel. 
 
-## TTL and DAC assignments ##
+#### TTL and DAC assignments ####
 
 **TTLs**
 ```
