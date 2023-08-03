@@ -60,12 +60,17 @@ For faster operation, it is possible to configure only the laser on-off to be co
 
 For simplicity, the current default configuration only provides channels that include a laser power setting. In the channel. 
 
-## TTL and DAC assignments ##
 
-- TTL3: 488nm laser (GFP)
-- TTL5: 594nm laser (mKate/mCherry)
-- TTL8: Camera
+**TTLs**
+```
+TTL3: 488nm laser (GFP)
+TTL5: 594nm laser (mKate/mCherry)
+TTL8: Camera
+```
+**DACs**
+```
+DAC3: 488nm laser power (GFP)
+DAC5: 594nm laser power (mKate)
+DAC7: ASI Z-piezo 
+``` 
 
-- DAC3: 488nm laser power (GFP)
-- DAC5: 594nm laser power (mKate)
-- DAC7: ASI Z-piezo 
