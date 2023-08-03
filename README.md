@@ -37,7 +37,9 @@ TTL8: Camera
 ```
 DAC3: 488nm laser power (GFP)
 DAC5: 594nm laser power (mKate)
-```
+DAC7: ASI Z-piezo 
+``` 
+
 
 ### Early-June 2023
 
@@ -103,6 +105,3 @@ Micro-manager configuration file updated with GFP, mKate, and GFP/mKate channels
 - Relocated from 256 to 454 Optics suite (Jamie White).
 - Cable connections and port assignments documented.
 - Laser power low.  488 unuseable (~1mW), 561 barely (~5mW).
-
-DAC7: ASI Z-piezo 
-``` 
