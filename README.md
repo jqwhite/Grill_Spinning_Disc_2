@@ -75,4 +75,25 @@ Micro-manager configuration file updated with GFP, mKate, and GFP/mKate channels
 YouTube video here: 
 
 https://youtu.be/5AC9UtiF0JM
-  
+
+## TTL Control of Lasers and Camera ##
+
+The Triggerscope has been set to act as a virtual shutter to control laser on-off and synchronize the lasers to the Orca camera. The current configuration also controls laser power (0 to 5 watts).  This configuration allows different "channels" to use different laser powers, and so different laser powers can be set during a time series.
+
+Blanking is on for the TTL control and set to high for both camera and active laser.  That is, the laser AND the camera must be fully on for either to be active.  
+
+For faster operation, it is possible to configure only the laser on-off to be controlled by the virtual shutter. The power remains at whatever it is set to.  This configuration does not allow power to be set within the channel, so laser power for a given laser cannot be changed during a time series.  That is, if 488nm is set to 1V and 594nm is set to 0.5V, then all channels must use those laser powers for the entire time series.
+
+For simplicity, the current default configuration only provides channels that include a laser power setting. In the channel. 
+
+## TTL and DAC assignments ##
+
+* **TTLs**
+- TTL3: 488nm laser (GFP)
+- TTL5: 594nm laser (mKate/mCherry)
+- TTL8: Camera
+
+- DAC3: 488nm laser power (GFP)
+- DAC5: 594nm laser power (mKate)
+- DAC7: ASI Z-piezo 
+ 
