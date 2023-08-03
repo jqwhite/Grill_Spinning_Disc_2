@@ -5,30 +5,37 @@
 
 Changes to hardware and software are documented here.
 
-### April 2023
-- Relocated from 256 to 454 Optics suite (Jamie White).
-- Cable connections and port assignments documented.
-- Laser power low.  488 unuseable (~1mW), 561 barely (~5mW).
+### June - July 2023
 
-### Early May 2023
+Triggerscope setup according to Austin Blanco/Nico Sturman published recommendations
 
-#### Pete Pitrone service visit:
-- optimized laser output in the Andor combiner. 
-- 488 to ~5mW and 561 to ~15mW
-- 561 laser well beyond rated service life.  
-- 488 relatively new but still weak.
-- CSU-X1 aligned (didn't need it) and cleaned (didn't nead it).
-- Hammamatsu camera failed.
+YouTube videos here: 
 
-### Mid-May 2023
-- Hammamatsu camera revived with the help of Sebastian Bundschu and Archit. The status LED had been turned off in the software. The issue was getting the **driver version matched to the software version** of (µ-Manager?  Hammamatsu control software?).
-- Andor laser combiner retired (Jamie White).
-- Omicron laser combiner with 445, 488, 515, and 594nm lasers commissioned (Jamie White).
-- Original FCP8 fiber that arrived with Omicron exchanged by Omicron for an AFP fiber. See `Fiber_exchange` in `Omicron` folder.  This chage was instigated after Pete Pitrone from Andor. (Turns out he was incorrect; see below). 
-- **Triggerscope** **ordered** for laser triggering and power control.
-- **Filters** **ordered** for 488/594 dual-excitation imaging. A new dichroic in the CSU-X1 head blocks detection of both laser lines, and a dual-band emission filter allows the GFP and mKate2 signals to pass to the camera.  **Dual-color imaging is achieved by switching the lasers without switching the emission filters.**
-- Archit improvised laser control with an Arduino.
-- Archit switched to using the Andor Precision Control Unit for laser control: lasers are triggered by the Orca camera
+https://youtu.be/5AC9UtiF0JM
+
+#### TTL Control of Lasers and Camera ####
+
+The Triggerscope has been set to act as a virtual shutter to control laser on-off and synchronize the lasers to the Orca camera. The current configuration also controls laser power (0 to 5 watts).  This configuration allows different "channels" to use different laser powers, and so different laser powers can be set during a time series.
+
+Blanking is on for the TTL control and set to high for both camera and active laser.  That is, the laser AND the camera must be fully on for either to be active.  
+
+For faster operation, it is possible to configure only the laser on-off to be controlled by the virtual shutter. The power remains at whatever it is set to.  This configuration does not allow power to be set within the channel, so laser power for a given laser cannot be changed during a time series.  That is, if 488nm is set to 1V and 594nm is set to 0.5V, then all channels must use those laser powers for the entire time series.
+
+For simplicity, the current default configuration only provides channels that include a laser power setting. In the channel. 
+
+#### TTL and DAC assignments ####
+
+**TTLs**
+```
+TTL3: 488nm laser (GFP)
+TTL5: 594nm laser (mKate/mCherry)
+TTL8: Camera
+```
+**DACs**
+```
+DAC3: 488nm laser power (GFP)
+DAC5: 594nm laser power (mKate)
+
 
 ### Early-June 2023
 
@@ -71,35 +78,30 @@ Current filters in the Sutter Lambda 10B are now:
 
 Micro-manager configuration file updated with GFP, mKate, and GFP/mKate channels.
 
-### June - July 2023
+### Mid-May 2023
+- Hammamatsu camera revived with the help of Sebastian Bundschu and Archit. The status LED had been turned off in the software. The issue was getting the **driver version matched to the software version** of (µ-Manager?  Hammamatsu control software?).
+- Andor laser combiner retired (Jamie White).
+- Omicron laser combiner with 445, 488, 515, and 594nm lasers commissioned (Jamie White).
+- Original FCP8 fiber that arrived with Omicron exchanged by Omicron for an AFP fiber. See `Fiber_exchange` in `Omicron` folder.  This chage was instigated after Pete Pitrone from Andor. (Turns out he was incorrect; see below). 
+- **Triggerscope** **ordered** for laser triggering and power control.
+- **Filters** **ordered** for 488/594 dual-excitation imaging. A new dichroic in the CSU-X1 head blocks detection of both laser lines, and a dual-band emission filter allows the GFP and mKate2 signals to pass to the camera.  **Dual-color imaging is achieved by switching the lasers without switching the emission filters.**
+- Archit improvised laser control with an Arduino.
+- Archit switched to using the Andor Precision Control Unit for laser control: lasers are triggered by the Orca camera
 
-Triggerscope setup according to Austin Blanco/Nico Sturman published recommendations
+### Early May 2023
 
-YouTube videos here: 
+#### Pete Pitrone service visit:
+- optimized laser output in the Andor combiner. 
+- 488 to ~5mW and 561 to ~15mW
+- 561 laser well beyond rated service life.  
+- 488 relatively new but still weak.
+- CSU-X1 aligned (didn't need it) and cleaned (didn't nead it).
+- Hammamatsu camera failed.
 
-https://youtu.be/5AC9UtiF0JM
+### April 2023
+- Relocated from 256 to 454 Optics suite (Jamie White).
+- Cable connections and port assignments documented.
+- Laser power low.  488 unuseable (~1mW), 561 barely (~5mW).
 
-#### TTL Control of Lasers and Camera ####
-
-The Triggerscope has been set to act as a virtual shutter to control laser on-off and synchronize the lasers to the Orca camera. The current configuration also controls laser power (0 to 5 watts).  This configuration allows different "channels" to use different laser powers, and so different laser powers can be set during a time series.
-
-Blanking is on for the TTL control and set to high for both camera and active laser.  That is, the laser AND the camera must be fully on for either to be active.  
-
-For faster operation, it is possible to configure only the laser on-off to be controlled by the virtual shutter. The power remains at whatever it is set to.  This configuration does not allow power to be set within the channel, so laser power for a given laser cannot be changed during a time series.  That is, if 488nm is set to 1V and 594nm is set to 0.5V, then all channels must use those laser powers for the entire time series.
-
-For simplicity, the current default configuration only provides channels that include a laser power setting. In the channel. 
-
-#### TTL and DAC assignments ####
-
-**TTLs**
-```
-TTL3: 488nm laser (GFP)
-TTL5: 594nm laser (mKate/mCherry)
-TTL8: Camera
-```
-**DACs**
-```
-DAC3: 488nm laser power (GFP)
-DAC5: 594nm laser power (mKate)
 DAC7: ASI Z-piezo 
 ``` 
