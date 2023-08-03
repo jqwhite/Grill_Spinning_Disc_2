@@ -31,8 +31,11 @@ Changes to hardware and software are documented here.
 - Archit switched to using the Andor Precision Control Unit for laser control: lasers are triggered by the Orca camera
 
 ### Early-June 2023
+
+#### Original FCP8 fiber re-installed. ####
+
 - It turns out that the FCP8 was correctly specified.  Original fiber back from Omicron (oops) and verified by Sebatsion (specifications), Archit and Jamie (imaging).
-- ## Original FCP8 fiber re-installed. ##
+  
 - Omicron laser input optimized by Stephan to ~75mW at the fiber tip.
 - New dichroic for 488/594 GFP/mKate imaging: **ZT488/594TPC 13x15x0.5mm Lot#413707**
 - New emission filter for 488/594 GFP/mKate imaging: **ZET488/594m 25mm die mounted Lot#412247**
