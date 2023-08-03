@@ -11,9 +11,9 @@ Triggerscope setup according to Austin Blanco/Nico Sturman published recommendat
 
 YouTube videos here: 
 
-**Setup in micro-manager:** https://youtu.be/5AC9UtiF0JM
+- **Setup in micro-manager:** https://youtu.be/5AC9UtiF0JM
 
-**TTL and blanking:** https://www.youtube.com/watch?v=7N5PMg5q5zI
+- **TTL and blanking:** https://www.youtube.com/watch?v=7N5PMg5q5zI
 
 #### TTL Control of Lasers and Camera ####
 
