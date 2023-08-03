@@ -70,9 +70,9 @@ Micro-manager configuration file updated with GFP, mKate, and GFP/mKate channels
 
 ### June - July 2023
 
-- Triggerscope setup according to Austin Blanco/Nico Sturman published recommendations
+Triggerscope setup according to Austin Blanco/Nico Sturman published recommendations
 
-YouTube video here: 
+YouTube videos here: 
 
 https://youtu.be/5AC9UtiF0JM
 
