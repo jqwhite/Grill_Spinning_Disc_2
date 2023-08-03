@@ -62,9 +62,9 @@ For simplicity, the current default configuration only provides channels that in
 
 ## TTL and DAC assignments ##
 
-TTL3: 488nm laser (GFP)
-TTL5: 594nm laser (mKate/mCherry)
-TTL8: Camera
+- TTL3: 488nm laser (GFP)
+- TTL5: 594nm laser (mKate/mCherry)
+- TTL8: Camera
 
 DAC3: 488nm laser power (GFP)
 DAC5: 594nm laser power (mKate)
