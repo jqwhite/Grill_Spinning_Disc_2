@@ -66,6 +66,6 @@ For simplicity, the current default configuration only provides channels that in
 - TTL5: 594nm laser (mKate/mCherry)
 - TTL8: Camera
 
-DAC3: 488nm laser power (GFP)
-DAC5: 594nm laser power (mKate)
-DAC7: ASI Z-piezo 
+- DAC3: 488nm laser power (GFP)
+- DAC5: 594nm laser power (mKate)
+- DAC7: ASI Z-piezo 
